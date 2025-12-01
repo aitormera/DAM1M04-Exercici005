@@ -429,7 +429,7 @@ h1, h2, h3 {
     position: absolute;
     width: 150px;
     height: 10px;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.7));
+    background: linear-gradient(90deg, transparent, rgba(255, 76, 76, 0.7));
     top: 50%;
     left: -150px;
     transform: translateY(-50%);
@@ -505,7 +505,7 @@ h1, h2, h3 {
     }
     
     .seccio-scroll-reveal h2::after {
-        content: " (Utilitzant Fallback - Sense View-Timeline)"; 
+        
         font-size: 0.8em;
         color: #999;
     }
