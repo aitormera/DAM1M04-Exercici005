@@ -504,8 +504,7 @@ h1, h2, h3 {
         transform: translateY(-10px) scale(1.03); 
     }
     
-    .seccio-scroll-reveal h2::after {
-        
+    .seccio-scroll-reveal h2::after { 
         font-size: 0.8em;
         color: #999;
     }
