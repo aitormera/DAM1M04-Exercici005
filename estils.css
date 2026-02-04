@@ -509,3 +509,88 @@ h1, h2, h3 {
         color: #999;
     }
 }
+
+
+
+.seccio-guia {
+    padding: var(--padding-md);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.seccio-guia section {
+    margin-bottom: var(--padding-lg);
+}
+
+.seccio-guia h2 {
+    border-bottom: 2px solid var(--color-secundari);
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.taula-colors {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    background: white;
+}
+
+.taula-colors th, .taula-colors td {
+    padding: 12px;
+    border: 1px solid rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.mostra-color {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+
+.mostra-icones {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+}
+
+.icon-card {
+    background: white;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 120px;
+}
+
+.baseline-test {
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: inset 0 -2px 0 var(--color-principal);
+}
+
+.nota-accessibilitat {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: #e7f3ff;
+    border-left: 5px solid var(--color-principal);
+    font-style: italic;
+}
+
+.escala-exemple {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
